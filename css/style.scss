@@ -322,7 +322,9 @@ main{
 			font-size: 3.75rem; font-weight: 600; margin-top: 169.5px;
 			text-align: right;
 			span{color: #08D1D9;}
+			br{display: none;}
 		}
+		
         .vanguard_contents_overflow{overflow-x: auto;   }		
 
 		.flip{
@@ -415,7 +417,7 @@ main{
 		}
 
 		#year_profit{
-			float: left;
+			float: left; 
 			background-color: #08D1D9; border-radius: 20px;
 			padding: 70px 20px; display: flex; margin-left: 26px;
 			width: 700px; position: relative;
@@ -429,10 +431,10 @@ main{
 				font-size: 21px; font-weight: 400; color:#fff;
 			}
 
-			.count_up2{text-align: right; width: 336px;}
+			.count_up2{text-align: left; width: 336px;}
 
 			#year_sales_sum{
-				margin-left: 10px;
+				margin-left: 30px;
 				.count2{
 					color: #fff; font-size: 66px; font-weight: 800; display: inline-block;
 				}
@@ -440,7 +442,7 @@ main{
 
 			.line{position: absolute; top: 45%; left: 52%;}
 
-			.count_up3{text-align: right; width: 294px;}
+			.count_up3{text-align: left; width: 294px;}
 
 			#sales_profit{
 				margin-left: 40px;
@@ -454,7 +456,7 @@ main{
 
 		#wedding_partnership{
 			float: left;
-			background-color: rgba(239, 229, 185, .3); padding: 32px 81px;
+			background-color: rgba(239, 229, 185, .3); padding: 32px 76px;
 			border-radius: 20px; margin-left: 20px; margin-bottom: 34px;
 			display: flex; align-items: center; justify-content: center;
 
@@ -463,7 +465,7 @@ main{
 					color: #4A4E53; font-size: 22px; font-weight: 400;
 				}
 
-				.count_up4{text-align: right; width: 140px;}
+				.count_up4{text-align: left; width: 150px;}
 
 				.count4{
 					color: #FFCE00; font-size: 66px; font-weight: 600; 
@@ -475,14 +477,14 @@ main{
 
 		#customers_count{
 			float: left;
-			background-color: rgba(239, 229, 185, .3); padding: 60px 32px;
+			background-color: rgba(239, 229, 185, .3); padding: 60px 30px;
 			border-radius: 20px; margin-left: 26px;
 
 			p{
 				font-size: 22px; color: #4A4E53; font-weight: 400;
 			}
 
-			.count_up5{text-align: right; width: 215px;}
+			.count_up5{text-align: left; width: 220px; }
 
 			.count5{
 				color: #FFCE00; font-size: 66px; font-weight: 600;
@@ -502,7 +504,7 @@ main{
 					font-size: 22px; color: #4A4E53; font-weight: 400;
 				}
 
-				.count_up6{text-align: right; width: 150px;}
+				.count_up6{text-align: left; width: 160px; }
 
 				.count6{
 					color: #FFCE00; font-size: 66px; font-weight: 600;
@@ -514,7 +516,7 @@ main{
 
 		#with_author{
 			float: left;
-			background-color: rgba(239, 229, 185, .3); padding: 60px 94px;
+			background-color: rgba(239, 229, 185, .3); padding: 60px 89px;
 			border-radius: 20px; margin-left: 26px; text-align: center;
 
 			p{
@@ -1550,7 +1552,8 @@ footer{
 		}//end:#moment_magic
 
 		#goods_vanguard{
-			h3{margin-top: 70px;}
+			h3{margin-top: 70px; line-height: 1.3;
+			br{display: block;}}
 			#vanguard_contents{margin-top: 20px; }
 		}//end:#goods_vanguard
 

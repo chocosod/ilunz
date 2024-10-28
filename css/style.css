@@ -530,6 +530,9 @@ main #goods_vanguard h3 {
 main #goods_vanguard h3 span {
   color: #08D1D9;
 }
+main #goods_vanguard h3 br {
+  display: none;
+}
 main #goods_vanguard .vanguard_contents_overflow {
   overflow-x: auto;
 }
@@ -656,11 +659,11 @@ main #goods_vanguard #year_profit span {
   color: #fff;
 }
 main #goods_vanguard #year_profit .count_up2 {
-  text-align: right;
+  text-align: left;
   width: 336px;
 }
 main #goods_vanguard #year_profit #year_sales_sum {
-  margin-left: 10px;
+  margin-left: 30px;
 }
 main #goods_vanguard #year_profit #year_sales_sum .count2 {
   color: #fff;
@@ -674,7 +677,7 @@ main #goods_vanguard #year_profit .line {
   left: 52%;
 }
 main #goods_vanguard #year_profit .count_up3 {
-  text-align: right;
+  text-align: left;
   width: 294px;
 }
 main #goods_vanguard #year_profit #sales_profit {
@@ -692,7 +695,7 @@ main #goods_vanguard #year_profit #sales_profit span {
 main #goods_vanguard #wedding_partnership {
   float: left;
   background-color: rgba(239, 229, 185, 0.3);
-  padding: 32px 81px;
+  padding: 32px 76px;
   border-radius: 20px;
   margin-left: 20px;
   margin-bottom: 34px;
@@ -706,8 +709,8 @@ main #goods_vanguard #wedding_partnership #wedding_comments p {
   font-weight: 400;
 }
 main #goods_vanguard #wedding_partnership #wedding_comments .count_up4 {
-  text-align: right;
-  width: 140px;
+  text-align: left;
+  width: 150px;
 }
 main #goods_vanguard #wedding_partnership #wedding_comments .count4 {
   color: #FFCE00;
@@ -724,7 +727,7 @@ main #goods_vanguard #wedding_partnership #wedding_comments span {
 main #goods_vanguard #customers_count {
   float: left;
   background-color: rgba(239, 229, 185, 0.3);
-  padding: 60px 32px;
+  padding: 60px 30px;
   border-radius: 20px;
   margin-left: 26px;
 }
@@ -734,8 +737,8 @@ main #goods_vanguard #customers_count p {
   font-weight: 400;
 }
 main #goods_vanguard #customers_count .count_up5 {
-  text-align: right;
-  width: 215px;
+  text-align: left;
+  width: 220px;
 }
 main #goods_vanguard #customers_count .count5 {
   color: #FFCE00;
@@ -765,8 +768,8 @@ main #goods_vanguard #growth_index #growth_comments p {
   font-weight: 400;
 }
 main #goods_vanguard #growth_index #growth_comments .count_up6 {
-  text-align: right;
-  width: 150px;
+  text-align: left;
+  width: 160px;
 }
 main #goods_vanguard #growth_index #growth_comments .count6 {
   color: #FFCE00;
@@ -783,7 +786,7 @@ main #goods_vanguard #growth_index #growth_comments span {
 main #goods_vanguard #with_author {
   float: left;
   background-color: rgba(239, 229, 185, 0.3);
-  padding: 60px 94px;
+  padding: 60px 89px;
   border-radius: 20px;
   margin-left: 26px;
   text-align: center;
@@ -2608,6 +2611,10 @@ footer address p:nth-child(5) {
   }
   main #goods_vanguard h3 {
     margin-top: 70px;
+    line-height: 1.3;
+  }
+  main #goods_vanguard h3 br {
+    display: block;
   }
   main #goods_vanguard #vanguard_contents {
     margin-top: 20px;
